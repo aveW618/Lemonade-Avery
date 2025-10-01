@@ -70,8 +70,5 @@ public class Inventory {
 		else {
 			System.out.println("Not enough money!");
 		}
-			
-			
-		}
 	}
 }
