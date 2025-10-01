@@ -57,7 +57,23 @@ public class Weather {
 		}
 		else {
 			System.out.pritnln("Your customers are unhappy");
-		
+	}
+	
+	//new method to help control the amount of customers for each type of weather
+	public static int numCustomers(String weather, int temperature) {
+		if (sunny, >85) {
+			customers = 40;
+		}
+		else if (cloudy, >75) {
+			customers = 30;
+		}
+		else if (rainy, >65) {
+			customers = 20;
+		}
+		else if (chilly, >50) {
+			customers = 10;
+		}
+		return customers;
 	}
 
 		
